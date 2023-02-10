@@ -33,9 +33,5 @@
 # From: Haelwenn (lanodan) Monnier <contact+libmagic@hacktivis.me>
 # https://racket-lang.org/
 # https://github.com/racket/racket/blob/master/racket/src/expander/compile/write-linklet.rkt
-0	string	#~
->&0	pstring	x
->>&0	pstring	racket
->>>0	string	#~	Racket bytecode
->>>&0	pstring	x       (version %s)
-
+0	string	#~	Racket bytecode
+>2	pstring	x	(version %s)
